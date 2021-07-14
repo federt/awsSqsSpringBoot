@@ -1,0 +1,18 @@
+cloud:
+  aws:
+    region:
+      chain: true
+      static: us-east-2
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: YOUR_ACCESS_KEY_HERE
+      secret-key: SECRET_KEY_HERE
+    endpoint:
+      uri: https://sqs.us-east-2.amazonaws.com/1234564789/YOUR-QUEUE-HERE
+server:
+  port: 9091
+queue:
+  name: YOUR-QUEUE-NAME-HERE
+
