@@ -23,7 +23,15 @@
   ### Test it
   
   By default the service starts listening at port :9091
+  POST http://localhost:9091/produce/ticket/
   
+  ```json
+  {
+    "id": 7,
+    "summary": "Cheeseburger",
+    "priority": 2
+  }
+  ```
   Environments and deployment
   ----------------------------
   Variables:
